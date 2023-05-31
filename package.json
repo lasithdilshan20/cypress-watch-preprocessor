@@ -1,0 +1,25 @@
+{
+  "name": "cypress-watch-preprocessor",
+  "version": "1.0.0",
+  "description": "A simple Cypress preprocessor for watching files. Will not change the files at all, but watches for a file to be saved and notifies Cypress to re-run.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lasithdilshan20/cypress-watch-preprocessor.git"
+  },
+  "author": "Lasitha W",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lasithdilshan20/cypress-watch-preprocessor/issues"
+  },
+  "homepage": "https://github.com/lasithdilshan20/cypress-watch-preprocessor#readme",
+  "dependencies": {
+    "cypress": "^12.13.0"
+  },
+  "devDependencies": {
+    "@cypress/watch-preprocessor": "^1.0.1"
+  }
+}
